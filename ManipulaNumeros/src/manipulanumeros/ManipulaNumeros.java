@@ -16,6 +16,7 @@ public class ManipulaNumeros {
             System.out.println("2 - Ordenar valores em decrescente");
             System.out.println("3 - Soma impares multiplica pares");                    
             System.out.println("4 - Trocar números");
+            System.out.println("5 - Compara números");
             System.out.println("0 - Sair");
             System.out.println("Selecione a opção pretendida");
             op = ler.nextInt();
@@ -36,6 +37,10 @@ public class ManipulaNumeros {
                     break;
                 case 4:
                     TrocaNumero.inverteNumero();
+                    break;
+                case 5:
+                    leValores("Insira um valor","Insira outro valor");
+                    ComparaNumero.comparar2Valores(x,y);
                     break;
                 default: System.out.println("Insira uma opção válida");
             }
