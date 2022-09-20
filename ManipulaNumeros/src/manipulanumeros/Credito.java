@@ -9,8 +9,6 @@ class Credito {
             System.out.println("Insira saldo médio anual.");
             saldoMedio = ManipulaNumeros.ler.nextInt();
         saldoCase = saldoMedio;
-        if (saldoMedio <0)
-            saldoMedio = 0;
         switch (saldoMedio/201){
             case 0:
                 System.out.println("\nSaldo médio "+saldoCase+"\nNão tem direito a crédito\n");
