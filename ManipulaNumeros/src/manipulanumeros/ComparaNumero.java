@@ -8,9 +8,9 @@ class ComparaNumero {
         if (x==y)
             System.out.println("Os valores são iguais");
         else if (x>y)
-            System.out.println(x+">"+y);
+            System.out.println(x+" > "+y);
         else
-            System.out.println(y+">"+x);
+            System.out.println(y+" > "+x);
     }
     
 }
